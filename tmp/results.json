@@ -1,0 +1,333 @@
+[
+  {
+    "description": "  As a user of the calculator\n  I would like access to basic arithmetic operations\n  So that I can perform simple calculations",
+    "elements": [
+      {
+        "id": "arithmetic-operations;add-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 1658583
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 1 + 2",
+            "result": {
+              "status": "passed",
+              "duration": 2798918
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 3",
+            "result": {
+              "status": "passed",
+              "duration": 3359439578
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations;should-use-add-operator-by-default",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Should use add operator by default",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 390803
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter first value of 10",
+            "result": {
+              "status": "passed",
+              "duration": 358162
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter second value of 7",
+            "result": {
+              "status": "passed",
+              "duration": 256369
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Go",
+            "result": {
+              "status": "passed",
+              "duration": 254018
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 17",
+            "result": {
+              "status": "passed",
+              "duration": 2510091524
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations;subtract-numbers",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Subtract numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 252419
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 15 - 7",
+            "result": {
+              "status": "passed",
+              "duration": 494658
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 8",
+            "result": {
+              "status": "passed",
+              "duration": 2580288855
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations;multiply-numbers",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Multiply numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 218530
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 10 * 9",
+            "result": {
+              "status": "passed",
+              "duration": 901260
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 90",
+            "result": {
+              "status": "passed",
+              "duration": 2540024061
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations;divide-numbers",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Divide numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 355203
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 10 / 2",
+            "result": {
+              "status": "passed",
+              "duration": 409535
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 5",
+            "result": {
+              "status": "passed",
+              "duration": 2602090988
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations;modulo-numbers",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Modulo numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 299510
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 26 % 11",
+            "result": {
+              "status": "passed",
+              "duration": 470626
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 4",
+            "result": {
+              "status": "passed",
+              "duration": 2531906183
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/peterlin/repo/protractor-cucumber-example/features/steps/calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "arithmetic-operations",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Arithmetic Operations",
+    "tags": [],
+    "uri": "/Users/peterlin/repo/protractor-cucumber-example/features/arithmetic.feature"
+  }
+]
