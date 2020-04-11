@@ -6,13 +6,6 @@ This creates some basic cucumber tests using the same Super Calculator applicati
 
 ## Getting Started
 
-### Clone Repository
-
-```
-git clone https://github.com/mlev/protractor-cucumber-example.git
-cd protractor-cucumber-example
-```
-
 ### Install Dependencies
 
 ```
